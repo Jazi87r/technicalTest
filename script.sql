@@ -1,3 +1,4 @@
+//HECHO EN MYSQL
 create database prueba;
 
 use prueba;
