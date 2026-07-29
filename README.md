@@ -7,3 +7,8 @@ Como correr el proyecto:
 Arquitectura usada:
 
 1. MVC (modelo, vista, controlador)
+
+IMPORTANTE:
+
+1. para users; el estado activo se lee como: "1" = VERDADERO, "0" = FALSO;
+2. para espacios; el estado habilitado se lee como: "1" = VERDADERO, "0" = FALSO;
