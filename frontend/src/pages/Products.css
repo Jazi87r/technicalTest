@@ -1,0 +1,68 @@
+.products-page {
+  padding: 24px;
+  text-align: left;
+}
+
+.products-form {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.products-form input {
+  flex: 1;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+}
+
+.products-form select,
+.products-table select {
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+}
+
+.products-error {
+  color: #e5484d;
+  margin-bottom: 16px;
+}
+
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.products-table th,
+.products-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+.products-table th {
+  color: var(--text-h);
+  font-weight: 500;
+}
+
+.products-table input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+  font: inherit;
+}
+
+.products-actions {
+  display: flex;
+  gap: 8px;
+  white-space: nowrap;
+}
