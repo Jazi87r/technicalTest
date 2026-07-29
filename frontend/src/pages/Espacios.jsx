@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react'
 const API_URL = '/api/espacios'
 
 function Espacios() {
-  console.log(API_URL)
   const [espacios, setEspacios] = useState([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
